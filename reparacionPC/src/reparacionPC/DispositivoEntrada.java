@@ -9,6 +9,24 @@ package reparacionPC;
  *
  * @author Juan Pablo
  */
-public class DispositivoEntrada {
+public class DispositivoEntrada extends Computadora{
+    private boolean inalambrico;
+
+    public DispositivoEntrada(boolean inalambrico) {
+        this.inalambrico = inalambrico;
+    }
+    
+    public DispositivoEntrada(){
+        
+    }
+
+    public boolean isInalambrico() {
+        return inalambrico;
+    }
+
+    public void setInalambrico(boolean inalambrico) {
+        this.inalambrico = inalambrico;
+    }
+    
     
 }

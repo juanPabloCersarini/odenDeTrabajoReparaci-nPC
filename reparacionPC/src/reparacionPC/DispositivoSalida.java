@@ -9,6 +9,24 @@ package reparacionPC;
  *
  * @author Juan Pablo
  */
-public class DispositivoSalida {
+public abstract class DispositivoSalida extends Computadora{
+    private String modelo;
+
+    public DispositivoSalida(String modelo) {
+        this.modelo = modelo;
+    }
+    
+    public DispositivoSalida(){
+        
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+    
     
 }

@@ -16,6 +16,10 @@ public class ReparacionPC {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Raton mouse = new Raton();
+        boolean inalambrico;
+        inalambrico = mouse.isInalambrico();
+        System.out.println(inalambrico);
     }
     
 }
